@@ -99,17 +99,19 @@ describe Series do
       end
       it { @tts.contents.last.link.should == '<h3 class="link_caption clearfix"><a href="diet_0001.html"><span class="mini orange">1</span>&nbsp;&nbsp;<span>楽しいダイエットの世界へようこそ！</span><span class="mini">(12/3)</span></a></h3>' + "\n" }
       describe 'html を生成する' do
-         before do
-            FileUtils.rm_f 'study/book/book_top.html'
-         end
          it do
             File.open(BASE + 'diet_top_test.html', 'w'){|f| f.puts @tts.to_htmls.first}
             @tts.to_htmls.first.should == File.read(BASE + 'diet_top_ref.html')
          end
-         it do
-            book = Series.new('study/book/', NaviMenu.new('2010-4-30'))
-            book.put_html
-            File.read('study/book/book_top.html').should == File.read('study/book/book_top_ref.html')
+         describe 'put_html' do
+            before do
+               FileUtils.rm_f 'study/book/book_top.html'
+            end
+            it do
+               book = Series.new('study/book/', NaviMenu.new('2010-4-30'))
+               book.put_html
+               File.read('study/book/book_top.html').should == File.read('study/book/book_top_ref.html')
+            end
          end
          describe 'ページネーション出来る' do
             it do

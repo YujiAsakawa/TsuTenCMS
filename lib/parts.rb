@@ -55,7 +55,10 @@ MENU_HEADER = <<EOB
 				<a href="../../index.html" id="top"><img src="../../images/logo.png" width="320px" height="50px" alt="通勤天国 -年間480時間の自分時間-" /></a>
 			</div>
 		</h1>
-		<div id="content_title" class="gradient_bar_orange caption">〓title〓<a href="〓info_path〓"><img src="../../images/explain.png" alt="コンテンツの詳細を見る" width="55px" height="24px" /></a></div>
+		<div id="content_title" class="gradient_bar_orange caption clearfix">
+			<span class="left">〓title〓</span>
+			<a class="right" href="〓info_path〓"><img src="../../images/explain.png" alt="コンテンツの詳細を見る" width="55px" height="24px" /></a>
+		</div>
 	</header>
 	<!--ヘッダーここまで-->
 	<!--コンテンツここから-->
