@@ -1,12 +1,12 @@
-#tab-wrapper {
+﻿#tab-wrapper {
 	width:auto;
 	margin: 0 auto;
 	text-align: left;
 	margin-bottom: 15px;
 }
 
-.hidden {
-	display: none;
+#tab-a1 {
+
 }
 
 #tab li {
@@ -15,7 +15,13 @@
 	width: 25%;
 	list-style-type: none;
 	background-color: #0f688a;
-	background: -webkit-gradient(linear, left top, left bottom, from(#ffead7), color-stop(2%, #fba75f), color-stop(93%, #e9943a), to(#79441e));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #79441e), color-stop(0.93, #e9943a), color-stop(0.02, #fba75f), color-stop(0.00, #ffead7));
+background: -webkit-linear-gradient(top, #ffead7 0%, #fba75f 2%, #e9943a 93%, #79441e 100%);
+background: -moz-linear-gradient(top, #ffead7 0%, #fba75f 2%, #e9943a 93%, #79441e 100%);
+background: -o-linear-gradient(top, #ffead7 0%, #fba75f 2%, #e9943a 93%, #79441e 100%);
+background: -ms-linear-gradient(top, #ffead7 0%, #fba75f 2%, #e9943a 93%, #79441e 100%);
+background: linear-gradient(to bottom, #ffead7 0%, #fba75f 2%, #e9943a 93%, #79441e 100%);
+
 	border-top: solid 1px #e9943a;
 	border-bottom: solid 1px #333;
 }
@@ -31,13 +37,20 @@
 	padding:16px 0 5px;
 	text-shadow: 0 -1px 0 #8a4904;
 	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	letter-spacing: 1px;
 }
 
 #tab li a:hover, #tab li.present a {
 	height:30px;
 	background-color: #0f688a;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(2%, #797979), to(#595959));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #595959), color-stop(0.02, #797979), color-stop(0.00, #fff));
+background: -webkit-linear-gradient(top, #fff 0%, #797979 2%, #595959 100%);
+background: -moz-linear-gradient(top, #fff 0%, #797979 2%, #595959 100%);
+background: -o-linear-gradient(top, #fff 0%, #797979 2%, #595959 100%);
+background: -ms-linear-gradient(top, #fff 0%, #797979 2%, #595959 100%);
+background: linear-gradient(to bottom, #fff 0%, #797979 2%, #595959 100%);
+
 	border-top: solid 1px #333;
 	border-right: solid 1px #333;
 	border-left: solid 1px #333;
@@ -48,6 +61,10 @@
 	-webkit-border-top-left-radius: 20px;
 	-webkit-border-top-right-radius: 20px;
 	-webkit-box-sizing: border-box;
+	-moz-border-top-left-radius: 20px;
+	-moz-border-top-right-radius: 20px;
+	-moz-box-sizing: border-box;
+
 	
 }
 
