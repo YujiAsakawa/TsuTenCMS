@@ -1,0 +1,8 @@
+		<!-- 日替わり写真スペース -->
+		<section id="photo_space">
+			<div id="photo_bloc">
+				<img src="DSC07468.jpg" alt="@溜池山王" />
+				<p class="photo_exp">@溜池山王</p>
+			</div>
+		</section>
+		<!-- 日替わり写真スペースここまで -->

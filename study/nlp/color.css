@@ -1,0 +1,18 @@
+td.header {
+	color: FireBrick ;
+}
+th.title {
+	background-color: firebrick ;
+}
+th.information {
+	background-color: firebrick ;
+}
+td.information {
+	border-color: firebrick ;
+}
+td.border {
+	border-color: firebrick ;
+}
+.emp {
+	color: firebrick ;
+}

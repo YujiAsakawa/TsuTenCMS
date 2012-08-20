@@ -1,0 +1,2 @@
+expected: "\t\t<!-- 日替わり写真スペース -->\n\t\t<section id=\"photo_space\">\n\t\t\t<div id=\"photo_bloc\">\n\t\t\t\t<img src=\"images/DSC07468.jpg\" alt=\"@溜池山王\" />\n\t\t\t\t<p class=\"photo_exp\">@溜池山王</p>\n\t\t\t</div>\n\t\t</section>\n\t\t<!-- 日替わり写真スペースここまで -->\n",
+        got: "\t\t<!-- 日替わり写真スペース -->\n\t\t<section id=\"photo_space\">\n\t\t\t<div id=\"photo_bloc\">\n\t\t\t\t<img src=\"DSC07468.jpg\" alt=\"@溜池山王\" />\n\t\t\t\t<p class=\"photo_exp\">@溜池山王</p>\n\t\t\t</div>\n\t\t</section>\n\t\t<!-- 日替わり写真スペースここまで -->\n" (using ==)

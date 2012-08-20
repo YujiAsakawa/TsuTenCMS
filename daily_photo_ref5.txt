@@ -1,0 +1,8 @@
+		<!-- 日替わり写真スペース -->
+		<section id="photo_space">
+			<div id="photo_bloc">
+				<img src="DSC00005.jpg" alt="@池袋" />
+				<p class="photo_exp">@池袋</p>
+			</div>
+		</section>
+		<!-- 日替わり写真スペースここまで -->

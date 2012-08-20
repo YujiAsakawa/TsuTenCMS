@@ -1,0 +1,18 @@
+td.header {
+	color: CornFlowerBlue;
+}
+th.title {
+	background-color: cornflowerblue;
+}
+th.information {
+	background-color: cornflowerblue;
+}
+td.information {
+	border-color: cornflowerblue;
+}
+td.border {
+	border-color: cornflowerblue;
+}
+.emp {
+	color: cornflowerblue;
+}

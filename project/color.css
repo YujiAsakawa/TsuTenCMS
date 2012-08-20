@@ -1,0 +1,18 @@
+td.header {
+	color: YellowGreen;
+}
+th.title {
+	background-color: YellowGreen;
+}
+th.information {
+	background-color: YellowGreen;
+}
+td.information {
+	border-color: YellowGreen;
+}
+td.border {
+	border-color: YellowGreen;
+}
+.emp {
+	color: YellowGreen;
+}

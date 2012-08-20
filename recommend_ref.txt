@@ -1,0 +1,8 @@
+		<!-- おすすめ情報 -->
+		<section id="tsuten_ad">
+			<div class="gradient_bar_gray caption">通勤天国おすすめ情報</div>
+			<h3 class="link_caption clearfix"><img src="images/icon.png" alt="アイコン" width="28px" height="24px" /><a href="./recommend/bini_seminar.html"><span>びにさんセミナーの情報</span></a></h3>
+			<h3 class="link_caption clearfix"><img src="images/icon.png" alt="アイコン" width="28px" height="24px" /><a href="./recommend/kobacchi_publication.html"><span>こばっちさん出版のお知らせ</span></a></h3>
+			<h3 class="link_caption clearfix"><img src="images/icon.png" alt="アイコン" width="28px" height="24px" /><a href="./recommend/murakami_event8.html"><span>村上さん植物園ガイドツアーのお知らせ</span></a></h3>
+		</section>
+		<!-- おすすめ情報ここまで -->

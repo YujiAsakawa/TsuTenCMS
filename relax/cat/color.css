@@ -1,0 +1,18 @@
+td.header {
+	color: Purple;
+}
+th.title {
+	background-color: Purple;
+}
+th.information {
+	background-color: Purple;
+}
+td.information {
+	border-color: Purple;
+}
+td.border {
+	border-color: Purple;
+}
+.emp {
+	color: Purple;
+}
