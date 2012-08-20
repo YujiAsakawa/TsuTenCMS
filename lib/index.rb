@@ -55,8 +55,8 @@ class Index
       html = ''
       html << INDEX_HEADER.gsub(/〓date〓/, fmday)
       html << mk_daily_photo
-      html << mk_recommend
       html << @navi.to_html
+      html << mk_recommend
 =begin
       html << NAVI_HEADER #TODO: NaviMenu の to_html に移行する
       html << @navi.topix_html
