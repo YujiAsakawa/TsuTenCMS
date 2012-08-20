@@ -163,7 +163,7 @@ class Content
       end
 
       <<-EOB
-<div>
+<div id="content_pages">
 #{[before, coming].compact.join("\n&nbsp;\n")}
 </div>
       EOB

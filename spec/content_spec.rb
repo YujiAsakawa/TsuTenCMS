@@ -229,7 +229,7 @@ describe Content do
          describe '前後のナビゲーションリンクを生成できる' do
             it do
                @ttc.navigation.should == <<-"EOB"
-<div>
+<div id="content_pages">
 <a href = "diet_0002.html"><img src="../../images/next.png" alt="次へ" width="55px" height="24px" /></a>
 </div>
                EOB
@@ -237,7 +237,7 @@ describe Content do
             it do
                ttc2 = Content.new(BASE + 'diet_0002.txt', Series.new(BASE, NaviMenu.new('2010-12-10')))
                ttc2.navigation.should == <<-"EOB"
-<div>
+<div id="content_pages">
 <a href = "diet_0001.html"><img src="../../images/previous.png" alt="前へ" width="55px" height="24px" /></a>
 &nbsp;
 <a href = "diet_0003.html"><img src="../../images/next.png" alt="次へ" width="55px" height="24px" /></a>
@@ -247,7 +247,7 @@ describe Content do
             it do
                ttc3 = Content.new(BASE + 'diet_0003.txt', Series.new(BASE, NaviMenu.new('2010-12-17')), false)
                ttc3.navigation.should == <<-"EOB"
-<div>
+<div id="content_pages">
 <a href = "diet_0002.html"><img src="../../images/previous.png" alt="前へ" width="55px" height="24px" /></a>
 </div>
                EOB

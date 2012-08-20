@@ -105,7 +105,10 @@ CONTENT_HEADER = <<EOB
 <a href="../../index.html" id="top"><img src="../../images/logo.png" width="320px" height="50px" alt="通勤天国 -年間480時間の自分時間-" /></a>
 </div>
 </h1>
-<div id="content_title" class="gradient_bar_orange caption"><a href="〓top_path〓">〓series〓</a>〓headline_link〓</div>
+<div id="content_title" class="gradient_bar_orange caption clearfix">
+   <a href="〓top_path〓" class="left">〓series〓</a>
+   〓headline_link〓
+</div>
 </header>
 <!--ヘッダーここまで-->
 <!--コンテンツここから-->
@@ -122,7 +125,8 @@ EOB
 
 CONTENT_FOOTER = <<EOB
 </p>
-<div id="content_foot">執筆者：<a href="〓author〓.html">〓author_name〓</a>
+<div id="content_foot" class="clearfix">
+<div id="writer">執筆者：<a href="〓author〓.html">〓author_name〓</a></div>
 〓navigation〓
 </div>
 </div>

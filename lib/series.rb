@@ -157,9 +157,9 @@ class Series
    end
 
    def author_header
-      %(<div id="content_title" class="gradient_bar_orange caption">#{author_name}) +
-        %(<a href="../../project/author.html">) +
-        %(<img src="../../images/writer.png" alt="執筆者一覧へ" width="55px" height="24px" />) +
+      %(<div id="content_title" class="gradient_bar_orange caption clearfix"><span class="left">#{author_name}</span>) +
+        %(<a class="right" href="#{@dname}#{@name}_top.html">) +
+        %(<img src="../../images/content.png" alt="記事一覧へ" width="55px" height="24px" />) +
         %(</a></div><br />\n)
    end
 
