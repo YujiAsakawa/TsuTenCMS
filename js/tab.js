@@ -4,6 +4,7 @@ var tab = {
 		var pages = this.setup.pages;
 		
 		for(i=0; i<pages.length; i++) {
+			if(i !== 0) pages[i].style.display = 'none';
 			tabs[i].onclick = function(){ tab.showpage(this); return false; };
 		}
 	},
