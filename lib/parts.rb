@@ -203,10 +203,10 @@ NAVI_HEADER = <<EOB
 		<!-- NAVIメニュー -->
 		<nav id="tab-wrapper">
 			<ul id="tab">
-				<li class="present" id="tab-a1"><a href="#topix" _fcksavedurl="#topix">トピックス</a></li>
-				<li><a href="#study" _fcksavedurl="#study">のばす</a></li>
-				<li><a href="#read" _fcksavedurl="#read">たのしむ</a></li>
-				<li><a href="#relax" _fcksavedurl="#relax">なごむ</a></li>
+				<li〓0〓><a href="#topix" _fcksavedurl="#topix">トピックス</a></li>
+				<li〓1〓><a href="#study" _fcksavedurl="#study">のばす</a></li>
+				<li〓2〓><a href="#read" _fcksavedurl="#read">たのしむ</a></li>
+				<li〓3〓><a href="#relax" _fcksavedurl="#relax">なごむ</a></li>
 			</ul>
 EOB
 
@@ -223,7 +223,7 @@ NAVI_FOOTER = <<EOB
 					]
 				}
 
-				tab.init();
+				tab.init(〓no〓);
 			</script>
 		</nav>
 		<!-- NAVIメニューここまで -->

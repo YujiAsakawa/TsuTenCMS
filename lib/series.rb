@@ -16,6 +16,7 @@ class Series
       @name = File.basename(dname)
       @fname = "#{@dname}#{@name}_top.txt"
       raise RuntimeError, "#{@fname} がありません。(series)".encode(TEXT_CODE) unless FileTest.exist? @fname
+      @category = @dname.split('/').first.to_sym
       @text = File.read(@fname)
       @info_path = "#{@name}_0000.html"
       @footer_name = "#{@dname}#{@name}_top_footer.html"
@@ -78,7 +79,7 @@ class Series
          html << content_links(cts)
          html << page_links(current_page, count)
          html << MENU_FOOTER
-         html << @navi.to_html('../../') unless $ARCIVE
+         html << @navi.to_html(@category, '../../') unless $ARCIVE
          html << FOOTER
          current_page += 1
          result << html

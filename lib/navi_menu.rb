@@ -69,13 +69,14 @@ class NaviMenu
       EOB
    end
 
-   def to_html(base_path = '')
-      html = NAVI_HEADER.dup
+   def to_html(current_category, base_path = '')
+      no = ([:topic] + CATEGORYS.keys).index(current_category)
+      html = NAVI_HEADER.sub("〓#{no}〓", ' class="present" id="tab-a1"').gsub(/〓\d〓/, '')
       html << topix_html(base_path)
       CATEGORYS.keys.each do |category|
          html << category_html(category, base_path)
       end
-      html << NAVI_FOOTER
+      html << NAVI_FOOTER.sub('〓no〓', no.to_s)
       html
    end
 

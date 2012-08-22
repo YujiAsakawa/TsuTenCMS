@@ -52,7 +52,7 @@ class Content
       html << body
       html << footer
       html << CONTENT_FOOTER.gsub('〓navigation〓', navigation).gsub('〓author〓', author).gsub('〓author_name〓', author_name)
-      html << @navi.to_html('../../') unless @info_flag or $ARCIVE
+      html << @navi.to_html(@category, '../../') unless @info_flag or $ARCIVE
       html << FOOTER.gsub('〓color〓', color)
    end
 
