@@ -116,9 +116,8 @@ CONTENT_HEADER = <<EOB
 <section id="content_space">
 <div id="content_box">
 <div class="content_caption orange">〓title〓
-&nbsp;<a name="fb_share">シェア</a>
 &nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
-&nbsp;<div id="fb-root"></div><script src="http://connect.facebook.net/ja_JP/all.js#appId=210349338986425&amp;xfbml=1"></script><div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
+&nbsp;<div id="fb-root"></div><script src="http://connect.facebook.net/ja_JP/all.js#appId=210349338986425&amp;xfbml=1"></script><div class="fb-like" data-layout="button_count" data-send="false" data-width="200" data-show-faces="false"></div>
 </div>
 <p>
 EOB
