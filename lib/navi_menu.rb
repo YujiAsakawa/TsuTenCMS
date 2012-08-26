@@ -34,7 +34,9 @@ class NaviMenu
       @series[category].each do |serie| #TODO: series_link を使う。
          html << %(<li class="link_caption clearfix">)
          html << faceicon(category, base_path)
-         html << %(<a href="#{base_path}#{serie.dname}#{serie.name}_top.html"><span>&nbsp;&nbsp;#{serie.title}</span></a></li>\n)
+         html << %(<a href="#{base_path}#{serie.dname}#{serie.name}_top.html"><span>&nbsp;&nbsp;#{serie.title}</span><br />)
+#         html << %(<span class="mini">#{serie.author_name}#{serie.contents.first and '(' + serie.contents.first.date + ')'}</span></a></li>\n) TODO: navi_menu と index の機能を統合できたら使えるかも。
+         html << %(<span class="mini">#{serie.author_name}</span></a></li>\n)
       end
       html << %(</ul>\n</div>\n)
       html

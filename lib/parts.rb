@@ -115,9 +115,9 @@ CONTENT_HEADER = <<EOB
 <div id="wrapper" class="clearfix">
 <section id="content_space">
 <div id="content_box">
-<div class="content_caption orange">〓title〓
-&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
-&nbsp;<div id="fb-root"></div><script src="http://connect.facebook.net/ja_JP/all.js#appId=210349338986425&amp;xfbml=1"></script><div class="fb-like" data-layout="button_count" data-send="false" data-width="200" data-show-faces="false"></div>
+<div class="content_caption orange">〓title〓<br />
+<script src="http://connect.facebook.net/ja_JP/all.js#appId=210349338986425&amp;xfbml=1"></script><div class="fb-like" data-layout="button_count" data-send="false" data-width="0" data-show-faces="false"></div>
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
 </div>
 <p>
 EOB
@@ -125,7 +125,10 @@ EOB
 CONTENT_FOOTER = <<EOB
 </p>
 <div id="content_foot" class="clearfix">
-<div id="writer">執筆者：<a href="〓author〓.html">〓author_name〓</a></div>
+<div id="writer">提供者：<a href="〓author〓.html">〓author_name〓</a><br />
+<script src="http://connect.facebook.net/ja_JP/all.js#appId=210349338986425&amp;xfbml=1"></script><div class="fb-like" data-layout="button_count" data-send="false" data-width="0" data-show-faces="false"></div>
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+</div>
 〓navigation〓
 </div>
 </div>
@@ -186,7 +189,7 @@ FOOTER = <<EOB
 		<footer>
 		 	<ul>
 		 		<li class="top_list"><a href="../../project/concept.html">通勤天国.comとは</a></li>
-		 		<li class="middle_list"><a href="../../project/author.html">執筆者紹介</a></li>
+		 		<li class="middle_list"><a href="../../project/author.html">提供者紹介</a></li>
 		 		<li class="bottom_list"><a href="mailto:info@tsu-ten.com">ご意見・お問い合わせ</a></li>
 		 	</ul>
 		 	<img src="../../images/foot_logo.png" alt="通勤天国" width="150px" height="45px" />

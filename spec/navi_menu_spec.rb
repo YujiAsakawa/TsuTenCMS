@@ -19,9 +19,9 @@ end
 CATEGORY=<<EOB
 <div id="study">
 <ul>
-<li class="link_caption clearfix"><img src="../../images/nobasu.png" alt="のばすくん" width="32px" height="30px" /><a href="../../study/book/book_top.html"><span>&nbsp;&nbsp;4946inaの 本の紹介</span></a></li>
-<li class="link_caption clearfix"><img src="../../images/nobasu.png" alt="のばすくん" width="32px" height="30px" /><a href="../../study/english/english_top.html"><span>&nbsp;&nbsp;英会話一日一言</span></a></li>
-<li class="link_caption clearfix"><img src="../../images/nobasu.png" alt="のばすくん" width="32px" height="30px" /><a href="../../study/nlp/nlp_top.html"><span>&nbsp;&nbsp;世界が変わるNLP</span></a></li>
+<li class="link_caption clearfix"><img src="../../images/nobasu.png" alt="のばすくん" width="32px" height="30px" /><a href="../../study/book/book_top.html"><span>&nbsp;&nbsp;4946inaの 本の紹介</span><br /><span class="mini">いな</span></a></li>
+<li class="link_caption clearfix"><img src="../../images/nobasu.png" alt="のばすくん" width="32px" height="30px" /><a href="../../study/english/english_top.html"><span>&nbsp;&nbsp;英会話一日一言</span><br /><span class="mini">イムラン</span></a></li>
+<li class="link_caption clearfix"><img src="../../images/nobasu.png" alt="のばすくん" width="32px" height="30px" /><a href="../../study/nlp/nlp_top.html"><span>&nbsp;&nbsp;世界が変わるNLP</span><br /><span class="mini">ほげ</span></a></li>
 </ul>
 </div>
 EOB
